@@ -1,6 +1,6 @@
 # Bazel (http://bazel.io/) BUILD file for Aeron.
 
-# You can use this library as: #include "libuv/uv.h"
+# You can use this library as: #include "aeron/Aeron.h"
 cc_inc_library(
     name = "aeron",
 	hdrs = [
