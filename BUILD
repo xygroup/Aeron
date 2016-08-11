@@ -1,5 +1,7 @@
 # Bazel (http://bazel.io/) BUILD file for Aeron.
 
+# Media Driver
+
 cc_binary(
     name = "driver",
     srcs = glob([
@@ -18,7 +20,6 @@ cc_binary(
     ],
     deps = [
         ":aeron",
-        "//hdr_histogram",
     ],
 )
 
@@ -52,4 +53,45 @@ cc_library(
     ],
     linkstatic = 1,
     visibility = ["//visibility:private"],
+)
+
+# Test apps
+
+cc_binary(
+    name = "ping",
+    srcs = glob([
+        "aeron-samples/src/main/cpp/Configuration.h",
+        "aeron-samples/src/main/cpp/Ping.cpp",
+    ]),
+    copts = [
+        "-Wall",
+        "-Wsign-compare",
+        "-fexceptions",
+        "-m64",
+        "-stdlib=libc++",
+        "-std=c++11",
+    ],
+    deps = [
+        ":aeron",
+        "//hdr_histogram",
+    ],
+)
+
+cc_binary(
+    name = "pong",
+    srcs = glob([
+        "aeron-samples/src/main/cpp/Configuration.h",
+        "aeron-samples/src/main/cpp/Pong.cpp",
+    ]),
+    copts = [
+        "-Wall",
+        "-Wsign-compare",
+        "-fexceptions",
+        "-m64",
+        "-stdlib=libc++",
+        "-std=c++11",
+    ],
+    deps = [
+        ":aeron",
+    ],
 )
