@@ -17,8 +17,9 @@
 #ifndef INCLUDED_AERON_CONCURRENT_LOGBUFFER_HEADERWRITER_H
 #define INCLUDED_AERON_CONCURRENT_LOGBUFFER_HEADERWRITER_H
 
-#include <util/Index.h>
-#include <concurrent/AtomicBuffer.h>
+#include "../../util/Index.h"
+#include "../AtomicBuffer.h"
+
 #include "DataFrameHeader.h"
 #include "FrameDescriptor.h"
 

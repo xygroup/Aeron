@@ -19,6 +19,7 @@
 
 #include <cstdint>
 #include <stddef.h>
+
 #include "Flyweight.h"
 
 namespace aeron { namespace command {

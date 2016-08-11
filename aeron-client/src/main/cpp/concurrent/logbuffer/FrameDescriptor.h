@@ -17,9 +17,10 @@
 #ifndef INCLUDED_AERON_CONCURRENT_LOGBUFFER_FRAME_DESCRIPTOR__
 #define INCLUDED_AERON_CONCURRENT_LOGBUFFER_FRAME_DESCRIPTOR__
 
-#include <util/Index.h>
-#include <util/StringUtil.h>
-#include <concurrent/AtomicBuffer.h>
+#include "../../util/Index.h"
+#include "../../util/StringUtil.h"
+#include "../AtomicBuffer.h"
+
 #include "DataFrameHeader.h"
 
 namespace aeron { namespace concurrent { namespace logbuffer {

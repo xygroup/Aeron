@@ -18,8 +18,10 @@
 #define AERON_TERMBLOCKSCANNER_H
 
 #include <functional>
-#include <util/Index.h>
-#include <concurrent/AtomicBuffer.h>
+
+#include "../../util/Index.h"
+#include "../AtomicBuffer.h"
+
 #include "LogBufferDescriptor.h"
 #include "Header.h"
 

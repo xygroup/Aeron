@@ -17,9 +17,11 @@
 #define AERON_ERRORLOGREADER_H
 
 #include <functional>
-#include <util/Index.h>
-#include <concurrent/AtomicBuffer.h>
-#include <util/BitUtil.h>
+
+#include "../../util/Index.h"
+#include "../../util/BitUtil.h"
+#include "../AtomicBuffer.h"
+
 #include "ErrorLogDescriptor.h"
 
 namespace aeron {

@@ -18,8 +18,10 @@
 
 #include <cstdint>
 #include <stddef.h>
-#include <util/Exceptions.h>
-#include <util/StringUtil.h>
+
+#include "../util/Exceptions.h"
+#include "../util/StringUtil.h"
+
 #include "Flyweight.h"
 
 namespace aeron { namespace command {

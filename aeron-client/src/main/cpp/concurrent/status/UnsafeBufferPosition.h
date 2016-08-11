@@ -17,8 +17,9 @@
 #ifndef AERON_UNSAFEBUFFERPOSITION_H
 #define AERON_UNSAFEBUFFERPOSITION_H
 
-#include <concurrent/AtomicBuffer.h>
-#include <concurrent/CountersManager.h>
+#include "../AtomicBuffer.h"
+#include "../CountersManager.h"
+
 #include "Position.h"
 
 namespace aeron { namespace concurrent { namespace status {

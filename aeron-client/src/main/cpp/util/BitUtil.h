@@ -18,7 +18,8 @@
 #define INCLUDED_AERON_UTIL_BITUTIL__
 
 #include <type_traits>
-#include <util/Exceptions.h>
+
+#include "Exceptions.h"
 
 namespace aeron { namespace util {
 

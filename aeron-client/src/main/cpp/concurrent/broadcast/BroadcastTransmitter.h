@@ -17,8 +17,9 @@
 #ifndef INCLUDED_AERON_CONCURRENT_BROADCAST_TRANSMITTER__
 #define INCLUDED_AERON_CONCURRENT_BROADCAST_TRANSMITTER__
 
-#include <util/Index.h>
-#include <concurrent/AtomicBuffer.h>
+#include "../../util/Index.h"
+#include "../AtomicBuffer.h"
+
 #include "BroadcastBufferDescriptor.h"
 #include "RecordDescriptor.h"
 

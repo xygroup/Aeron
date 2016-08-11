@@ -17,9 +17,9 @@
 #ifndef INCLUDED_AERON_CONCURRENT_BROADCAST_RECORD_DESCRIPTOR__
 #define INCLUDED_AERON_CONCURRENT_BROADCAST_RECORD_DESCRIPTOR__
 
-#include <util/Index.h>
-#include <concurrent/AtomicBuffer.h>
-#include <util/BitUtil.h>
+#include "../../util/Index.h"
+#include "../../util/BitUtil.h"
+#include "../AtomicBuffer.h"
 
 namespace aeron { namespace concurrent { namespace broadcast {
 

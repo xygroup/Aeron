@@ -17,11 +17,12 @@
 #define INCLUDED_AERON_COMMON_AGENT_RUNNER__
 
 #include <string>
-#include <util/Exceptions.h>
 #include <functional>
 #include <thread>
 #include <atomic>
-#include <concurrent/logbuffer/TermReader.h>
+
+#include "../util/Exceptions.h"
+#include "logbuffer/TermReader.h"
 
 namespace aeron {
 

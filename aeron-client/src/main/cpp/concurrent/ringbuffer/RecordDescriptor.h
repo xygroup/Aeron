@@ -17,8 +17,8 @@
 #ifndef INCLUDED_AERON_CONCURRENT_RINGBUFFER_RECORD_DESCRIPTOR__
 #define INCLUDED_AERON_CONCURRENT_RINGBUFFER_RECORD_DESCRIPTOR__
 
-#include <util/Index.h>
-#include <util/StringUtil.h>
+#include "../../util/Index.h"
+#include "../../util/StringUtil.h"
 
 namespace aeron { namespace concurrent { namespace ringbuffer {
 

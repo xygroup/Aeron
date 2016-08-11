@@ -18,6 +18,7 @@
 #define AERON_FRAGMENTASSEMBLYADAPTER_H
 
 #include <unordered_map>
+
 #include "Aeron.h"
 #include "BufferBuilder.h"
 

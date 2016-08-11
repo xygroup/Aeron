@@ -15,6 +15,7 @@
  */
 #include <stdio.h>
 #include <stdarg.h>
+
 #include "StringUtil.h"
 
 namespace aeron { namespace util {

@@ -17,11 +17,12 @@
 #ifndef INCLUDED_AERON_CONCURRENT_LOGBUFFER_LOG_BUFFER_DESCRIPTOR__
 #define INCLUDED_AERON_CONCURRENT_LOGBUFFER_LOG_BUFFER_DESCRIPTOR__
 
-#include <util/Index.h>
-#include <util/StringUtil.h>
-#include <util/BitUtil.h>
-#include <util/Exceptions.h>
-#include <concurrent/AtomicBuffer.h>
+#include "../../util/Index.h"
+#include "../../util/StringUtil.h"
+#include "../../util/BitUtil.h"
+#include "../../util/Exceptions.h"
+#include "../AtomicBuffer.h"
+
 #include "FrameDescriptor.h"
 #include "DataFrameHeader.h"
 

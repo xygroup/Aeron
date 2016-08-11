@@ -17,9 +17,10 @@
 #ifndef INCLUDED_AERON_CONCURRENT_LOGBUFFER_HEADER__
 #define INCLUDED_AERON_CONCURRENT_LOGBUFFER_HEADER__
 
-#include <util/Index.h>
-#include <util/BitUtil.h>
-#include <concurrent/AtomicBuffer.h>
+#include "../../util/Index.h"
+#include "../../util/BitUtil.h"
+#include "../AtomicBuffer.h"
+
 #include "DataFrameHeader.h"
 
 namespace aeron { namespace concurrent { namespace logbuffer {

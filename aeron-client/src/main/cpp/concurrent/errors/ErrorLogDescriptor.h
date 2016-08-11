@@ -17,8 +17,9 @@
 #define AERON_ERRORLOGDESCRIPTOR_H
 
 #include <cstddef>
-#include <util/Index.h>
-#include <concurrent/AtomicBuffer.h>
+
+#include "../../util/Index.h"
+#include "../AtomicBuffer.h"
 
 namespace aeron {
 

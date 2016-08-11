@@ -20,6 +20,7 @@
 #include <sstream>
 #include <iostream>
 #include <type_traits>
+
 #include "Exceptions.h"
 
 namespace aeron { namespace util {

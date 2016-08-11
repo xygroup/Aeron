@@ -18,8 +18,8 @@
 
 #include <cstdint>
 #include <stddef.h>
-#include "Flyweight.h"
 
+#include "Flyweight.h"
 #include "CorrelatedMessageFlyweight.h"
 #include "PublicationBuffersReadyFlyweight.h"
 

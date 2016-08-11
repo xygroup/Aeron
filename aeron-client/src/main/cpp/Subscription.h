@@ -20,7 +20,9 @@
 #include <cstdint>
 #include <iostream>
 #include <atomic>
-#include <concurrent/logbuffer/TermReader.h>
+
+#include "concurrent/logbuffer/TermReader.h"
+
 #include "Image.h"
 
 namespace aeron {

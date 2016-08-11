@@ -17,16 +17,18 @@
 #ifndef INCLUDED_AERON_AERON__
 #define INCLUDED_AERON_AERON__
 
-#include <util/Exceptions.h>
 #include <iostream>
 #include <thread>
 #include <random>
-#include <concurrent/logbuffer/TermReader.h>
-#include <util/MemoryMappedFile.h>
-#include <concurrent/broadcast/CopyBroadcastReceiver.h>
-#include "ClientConductor.h"
+
+#include "util/Exceptions.h"
+#include "util/MemoryMappedFile.h"
+#include "concurrent/logbuffer/TermReader.h"
+#include "concurrent/broadcast/CopyBroadcastReceiver.h"
 #include "concurrent/SleepingIdleStrategy.h"
 #include "concurrent/AgentRunner.h"
+
+#include "ClientConductor.h"
 #include "Publication.h"
 #include "Subscription.h"
 #include "Context.h"

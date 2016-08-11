@@ -18,8 +18,10 @@
 #define INCLUDED_AERON_CONCURRENT_BROADCAST_RECEIVER__
 
 #include <atomic>
-#include <util/Index.h>
-#include <concurrent/AtomicBuffer.h>
+
+#include "../../util/Index.h"
+#include "../AtomicBuffer.h"
+
 #include "BroadcastBufferDescriptor.h"
 #include "RecordDescriptor.h"
 

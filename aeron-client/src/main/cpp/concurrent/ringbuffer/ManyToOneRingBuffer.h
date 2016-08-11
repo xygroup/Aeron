@@ -20,10 +20,12 @@
 #include <limits.h>
 #include <functional>
 #include <algorithm>
-#include <util/Index.h>
-#include <util/LangUtil.h>
-#include <concurrent/AtomicBuffer.h>
-#include <concurrent/Atomic64.h>
+
+#include "../../util/Index.h"
+#include "../../util/LangUtil.h"
+#include "../AtomicBuffer.h"
+#include "../Atomic64.h"
+
 #include "RingBufferDescriptor.h"
 #include "RecordDescriptor.h"
 

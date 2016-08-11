@@ -5,7 +5,8 @@
 #ifndef INCLUDED_AERON_CONCURRENT_LOGBUFFER_TERMSCANNER__
 #define INCLUDED_AERON_CONCURRENT_LOGBUFFER_TERMSCANNER__
 
-#include <util/BitUtil.h>
+#include "../../util/BitUtil.h"
+
 #include "FrameDescriptor.h"
 
 namespace aeron { namespace concurrent { namespace logbuffer

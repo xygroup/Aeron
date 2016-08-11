@@ -17,7 +17,8 @@
 #ifndef INCLUDED_AERON_CONCURRENT_LOGBUFFER_TERMGAPSCANNER__
 #define INCLUDED_AERON_CONCURRENT_LOGBUFFER_TERMGAPSCANNER__
 
-#include <util/BitUtil.h>
+#include "../../util/BitUtil.h"
+
 #include "FrameDescriptor.h"
 
 namespace aeron { namespace concurrent { namespace logbuffer {

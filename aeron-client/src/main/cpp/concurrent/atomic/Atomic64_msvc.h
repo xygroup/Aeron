@@ -17,6 +17,7 @@
 #define INCLUDED_ATOMIC64_MSVC_
 
 #include <atomic>
+
 #include "Intrin.h"
 
 namespace aeron { namespace concurrent { namespace atomic {

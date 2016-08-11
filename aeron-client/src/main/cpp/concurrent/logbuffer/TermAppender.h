@@ -18,8 +18,10 @@
 #define INCLUDED_AERON_CONCURRENT_LOGBUFFER_TERM_APPENDER__
 
 #include <functional>
-#include <util/Index.h>
-#include <concurrent/AtomicBuffer.h>
+
+#include "../../util/Index.h"
+#include "../AtomicBuffer.h"
+
 #include "HeaderWriter.h"
 #include "LogBufferDescriptor.h"
 #include "BufferClaim.h"
