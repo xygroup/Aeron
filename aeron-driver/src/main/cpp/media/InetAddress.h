@@ -25,7 +25,7 @@
 #include <netinet/in.h>
 #include <sstream>
 
-#include "util/Exceptions.h"
+#include "aeron/util/Exceptions.h"
 
 namespace aeron { namespace driver { namespace media {
 

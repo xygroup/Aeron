@@ -18,8 +18,10 @@
 #define INCLUDED_AERON_DRIVER_RECEIVER_
 
 #include <cstdint>
-#include "MediaDriver.h"
+
 #include "media/ReceiveChannelEndpoint.h"
+
+#include "MediaDriver.h"
 
 using namespace aeron::driver;
 using namespace aeron::driver::media;

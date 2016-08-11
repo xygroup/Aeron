@@ -17,12 +17,12 @@
 #ifndef INCLUDED_AERON_DRIVER_MEDIA_RECEIVECHANNELENDPOINT__
 #define INCLUDED_AERON_DRIVER_MEDIA_RECEIVECHANNELENDPOINT__
 
-#include <protocol/DataHeaderFlyweight.h>
-#include <protocol/HeaderFlyweight.h>
-#include <protocol/NakFlyweight.h>
-#include <protocol/SetupFlyweight.h>
-#include <protocol/StatusMessageFlyweight.h>
-#include <util/MacroUtil.h>
+#include "aeron/protocol/DataHeaderFlyweight.h"
+#include "aeron/protocol/HeaderFlyweight.h"
+#include "aeron/protocol/NakFlyweight.h"
+#include "aeron/protocol/SetupFlyweight.h"
+#include "aeron/protocol/StatusMessageFlyweight.h"
+#include "aeron/util/MacroUtil.h"
 
 #include "UdpChannelTransport.h"
 

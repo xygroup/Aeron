@@ -19,6 +19,7 @@
 
 #include <functional>
 #include <tuple>
+
 #include "InetAddress.h"
 
 namespace aeron { namespace driver { namespace media {

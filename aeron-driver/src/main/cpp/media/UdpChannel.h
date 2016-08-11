@@ -19,7 +19,9 @@
 
 #include <memory>
 #include <iostream>
-#include "util/Exceptions.h"
+
+#include "aeron/util/Exceptions.h"
+
 #include "InetAddress.h"
 #include "InterfaceLookup.h"
 #include "NetworkInterface.h"

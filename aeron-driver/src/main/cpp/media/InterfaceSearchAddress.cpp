@@ -20,9 +20,10 @@
 #include <sstream>
 #include <ifaddrs.h>
 #include <net/if.h>
-#include <util/ScopeUtils.h>
 
-#include "util/StringUtil.h"
+#include "aeron/util/ScopeUtils.h"
+#include "aeron/util/StringUtil.h"
+
 #include "InterfaceSearchAddress.h"
 
 using namespace aeron::driver::media;

@@ -19,9 +19,10 @@
 
 #include <unordered_map>
 
-#include <concurrent/AtomicCounter.h>
-#include <concurrent/CountersManager.h>
-#include <util/Exceptions.h>
+#include "aeron/concurrent/AtomicCounter.h"
+#include "aeron/concurrent/CountersManager.h"
+#include "aeron/util/Exceptions.h"
+
 #include "SystemCounterDescriptor.h"
 
 namespace aeron { namespace driver { namespace status {

@@ -17,10 +17,11 @@
 #ifndef INCLUDED_AERON_DRIVER_UDPCHANNELTRANSPORT__
 #define INCLUDED_AERON_DRIVER_UDPCHANNELTRANSPORT__
 
-#include <protocol/HeaderFlyweight.h>
-#include <concurrent/AtomicBuffer.h>
-#include <concurrent/logbuffer/FrameDescriptor.h>
 #include <unistd.h>
+
+#include "aeron/protocol/HeaderFlyweight.h"
+#include "aeron/concurrent/AtomicBuffer.h"
+#include "aeron/concurrent/logbuffer/FrameDescriptor.h"
 
 #include "UdpChannel.h"
 

@@ -2,7 +2,8 @@
 // Created by Michael Barker on 07/10/15.
 //
 
-#include <util/Exceptions.h>
+#include "aeron/util/Exceptions.h"
+
 #include "NetworkInterface.h"
 
 using namespace aeron::driver::media;

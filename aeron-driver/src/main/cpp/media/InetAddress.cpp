@@ -22,11 +22,13 @@
 #include <netdb.h>
 #include <iostream>
 
-#include "util/StringUtil.h"
-#include "util/ScopeUtils.h"
+#include "aeron/util/StringUtil.h"
+#include "aeron/util/ScopeUtils.h"
+#include "aeron/util/Exceptions.h"
+
+#include "../uri/NetUtil.h"
+
 #include "InetAddress.h"
-#include "uri/NetUtil.h"
-#include "util/Exceptions.h"
 
 using namespace aeron::driver::media;
 

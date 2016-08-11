@@ -17,10 +17,10 @@
 #ifndef AERON_DRIVERCONDUCTORPROXY_H
 #define AERON_DRIVERCONDUCTORPROXY_H
 
-
 #include <cstdint>
-#include <media/InetAddress.h>
-#include <media/ReceiveChannelEndpoint.h>
+
+#include "media/InetAddress.h"
+#include "media/ReceiveChannelEndpoint.h"
 
 namespace aeron { namespace driver {
 

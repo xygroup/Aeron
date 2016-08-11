@@ -5,8 +5,8 @@
 #ifndef INCLUDED_AERON_DRIVER_NETWORKINTERFACE__
 #define INCLUDED_AERON_DRIVER_NETWORKINTERFACE__
 
-
 #include <memory>
+
 #include "InetAddress.h"
 
 namespace aeron { namespace driver { namespace media {

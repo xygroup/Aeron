@@ -17,8 +17,8 @@
 #ifndef INCLUDED_AERON_DRIVER_MEDIA_SENDCHANNELENDPOINT__
 #define INCLUDED_AERON_DRIVER_MEDIA_SENDCHANNELENDPOINT__
 
-#include <protocol/DataHeaderFlyweight.h>
-#include <protocol/StatusMessageFlyweight.h>
+#include "aeron/protocol/DataHeaderFlyweight.h"
+#include "aeron/protocol/StatusMessageFlyweight.h"
 
 #include "UdpChannelTransport.h"
 

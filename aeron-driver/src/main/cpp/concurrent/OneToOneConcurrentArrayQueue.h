@@ -18,10 +18,11 @@
 #define INCLUDED_AERON_DRIVER_ONETOONECONCURRENTARRAYQUEUE_
 
 #include <cstdint>
-#include <util/BitUtil.h>
-#include <concurrent/Atomic64.h>
 #include <array>
 #include <atomic>
+
+#include "aeron/util/BitUtil.h"
+#include "aeron/concurrent/Atomic64.h"
 
 namespace aeron { namespace driver { namespace concurrent {
 

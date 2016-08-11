@@ -15,6 +15,7 @@
  */
 
 #include <unistd.h>
+
 #include "MappedRawLog.h"
 
 namespace aeron { namespace driver { namespace buffer {

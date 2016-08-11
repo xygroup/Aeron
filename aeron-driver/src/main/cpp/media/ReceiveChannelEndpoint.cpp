@@ -14,9 +14,9 @@
  * limitations under the License.
  */
 
-#include <concurrent/AtomicBuffer.h>
-#include <concurrent/logbuffer/DataFrameHeader.h>
-#include <concurrent/logbuffer/FrameDescriptor.h>
+#include "aeron/concurrent/AtomicBuffer.h"
+#include "aeron/concurrent/logbuffer/DataFrameHeader.h"
+#include "aeron/concurrent/logbuffer/FrameDescriptor.h"
 
 #include "ReceiveChannelEndpoint.h"
 

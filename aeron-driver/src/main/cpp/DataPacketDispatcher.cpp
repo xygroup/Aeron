@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-#include <util/Exceptions.h>
+#include "aeron/util/Exceptions.h"
 
 #include "DataPacketDispatcher.h"
 

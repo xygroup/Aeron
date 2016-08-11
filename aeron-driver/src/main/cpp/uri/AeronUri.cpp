@@ -18,8 +18,9 @@
 #include <iostream>
 #include <sstream>
 
+#include "aeron/util/Exceptions.h"
+
 #include "AeronUri.h"
-#include "util/Exceptions.h"
 
 using namespace aeron::driver::uri;
 

@@ -22,9 +22,9 @@
 #include <cstdint>
 #include <vector>
 
-#include <concurrent/logbuffer/LogBufferDescriptor.h>
-#include <concurrent/AtomicBuffer.h>
-#include <util/MemoryMappedFile.h>
+#include "aeron/concurrent/logbuffer/LogBufferDescriptor.h"
+#include "aeron/concurrent/AtomicBuffer.h"
+#include "aeron/util/MemoryMappedFile.h"
 
 using namespace aeron::util;
 using namespace aeron::concurrent;

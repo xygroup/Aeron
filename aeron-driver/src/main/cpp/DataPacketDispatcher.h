@@ -20,9 +20,10 @@
 #include <unordered_map>
 #include <utility>
 
-#include <media/ReceiveChannelEndpoint.h>
-#include <util/Exceptions.h>
-#include <util/StringUtil.h>
+#include "aeron/util/Exceptions.h"
+#include "aeron/util/StringUtil.h"
+
+#include "media/ReceiveChannelEndpoint.h"
 
 #include "PublicationImage.h"
 #include "Receiver.h"

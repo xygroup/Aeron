@@ -18,12 +18,15 @@
 #define AERON_PUBLICATIONIMAGE_H
 
 #include <cstdint>
-#include <concurrent/AtomicBuffer.h>
-#include <concurrent/status/ReadablePosition.h>
-#include <concurrent/status/UnsafeBufferPosition.h>
-#include <util/MacroUtil.h>
+
+#include "aeron/concurrent/AtomicBuffer.h"
+#include "aeron/concurrent/status/ReadablePosition.h"
+#include "aeron/concurrent/status/UnsafeBufferPosition.h"
+#include "aeron/util/MacroUtil.h"
+
 #include "buffer/MappedRawLog.h"
 #include "media/InetAddress.h"
+
 #include "FeedbackDelayGenerator.h"
 
 namespace aeron { namespace driver {

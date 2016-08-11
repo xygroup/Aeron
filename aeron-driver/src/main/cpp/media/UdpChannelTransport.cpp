@@ -16,9 +16,11 @@
 
 
 #include <sys/errno.h>
-#include <util/StringUtil.h>
 #include <iostream>
 #include <sys/fcntl.h>
+
+#include "aeron/util/StringUtil.h"
+
 #include "UdpChannelTransport.h"
 
 using namespace aeron::driver::media;

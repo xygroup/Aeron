@@ -16,10 +16,12 @@
 #include <cstdint>
 #include <cstdio>
 #include <signal.h>
-#include <util/CommandOptionParser.h>
 #include <thread>
 #include <array>
 #include <atomic>
+
+#include "aeron/util/CommandOptionParser.h"
+
 #include "MediaDriver.h"
 
 using namespace aeron::util;

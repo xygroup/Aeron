@@ -14,10 +14,11 @@
  * limitations under the License.
  */
 
+#include "../uri/AeronUri.h"
+
+#include "InetAddress.h"
+#include "InterfaceSearchAddress.h"
 #include "UdpChannel.h"
-#include "uri/AeronUri.h"
-#include "media/InetAddress.h"
-#include "media/InterfaceSearchAddress.h"
 
 using namespace aeron::driver::media;
 using namespace aeron::driver::uri;

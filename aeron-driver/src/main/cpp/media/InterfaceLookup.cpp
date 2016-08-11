@@ -15,10 +15,12 @@
  */
 
 #include <ifaddrs.h>
-#include <util/Exceptions.h>
-#include <util/ScopeUtils.h>
 #include <sys/socket.h>
 #include <net/if.h>
+
+#include "aeron/util/Exceptions.h"
+#include "aeron/util/ScopeUtils.h"
+
 #include "InterfaceLookup.h"
 #include "InetAddress.h"
 
