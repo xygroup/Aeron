@@ -21,6 +21,9 @@ cc_library(
     ]),
     copts = [
         "-Wall",
+        "-Wsign-compare",
+        "-fexceptions",
+        "-m64",
         "-stdlib=libc++",
         "-std=c++11",
     ],
