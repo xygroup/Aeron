@@ -15,8 +15,10 @@ cc_binary(
         "-Wsign-compare",
         "-fexceptions",
         "-m64",
-        "-stdlib=libc++",
         "-std=c++11",
+    ],
+    linkopts = [
+        "-lpthread",
     ],
     deps = [
         ":aeron",
@@ -48,8 +50,10 @@ cc_library(
         "-Wsign-compare",
         "-fexceptions",
         "-m64",
-        "-stdlib=libc++",
         "-std=c++11",
+    ],
+    linkopts = [
+        "-lpthread",
     ],
     linkstatic = 1,
     visibility = ["//visibility:private"],
@@ -64,11 +68,11 @@ cc_binary(
         "aeron-samples/src/main/cpp/Ping.cpp",
     ]),
     copts = [
+        "-pthread",
         "-Wall",
         "-Wsign-compare",
         "-fexceptions",
         "-m64",
-        "-stdlib=libc++",
         "-std=c++11",
     ],
     deps = [
@@ -88,7 +92,6 @@ cc_binary(
         "-Wsign-compare",
         "-fexceptions",
         "-m64",
-        "-stdlib=libc++",
         "-std=c++11",
     ],
     deps = [
