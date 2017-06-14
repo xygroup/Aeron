@@ -61,6 +61,7 @@ public:
 
     static inline const SystemCounterDescriptor getById(std::int32_t id)
     {
+        // FIXME: Unimplemented.
         return BYTES_SENT;
     }
 
