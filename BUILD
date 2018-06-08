@@ -26,13 +26,13 @@ cc_binary(
 )
 
 # You can use this library as: #include "aeron/Aeron.h"
-cc_inc_library(
+cc_library(
     name = "aeron",
 	hdrs = glob([
         "aeron-client/src/main/cpp/*.h",
         "aeron-client/src/main/cpp/**/*.h",
     ]),
-    prefix = "aeron-client/src/main/cpp",
+    include_prefix = "aeron-client/src/main/cpp",
     deps = [":aeron_impl"],
     visibility = ["//visibility:public"],
 )
